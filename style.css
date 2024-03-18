@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("pexels-keira-burton-6623832.jpg");
+  background-size: cover;
+}
+
+#small_box {
+  width: 73%;
+  height: 85%;
+  border-radius: 15px;
+  background-color: #d3e4f453;
+  overflow: hidden;
+}
+
+.top_box {
+  padding:0px 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  width: 100%;
+  height: 80px;
+  background-color: #7ab6ef9c;
+}
+#reset{
+  position: relative;
+  cursor: pointer;
+  display: block;
+  left: 90%;
+  top: -53px;
+}
+.top_sub_box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.sub_box {
+  color: rgb(2, 90, 116);
+  font-weight: 600;
+  font-size: 17px;
+  padding: 4px 8px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.bottom_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px;
+    padding: 20px;
+    width: 100%;
+    height:calc(100% - 80px);
+}
+.bubble{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color:#ffffff;
+    box-shadow:#fff;
+    color: #000;
+    border-radius: 50%;
+}
+.bubble:hover{
+    cursor: pointer;
+    box-shadow: inset -6px 0px 13px #9f9d9d, -4px 2px 13px black, 0px 0px 0px #fff, inset 0px 1px 6px black;
+}
